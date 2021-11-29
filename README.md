@@ -1,6 +1,6 @@
 # pitch-recognizer
 
-## Project setup
+## How to run the project?
 ```
 npm install
 ```
@@ -22,3 +22,7 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+## Message
+Just For Fun and Future Preparations.  
+Make a pitch recognizer as a front-end developer.
