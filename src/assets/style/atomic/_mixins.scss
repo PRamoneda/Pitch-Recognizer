@@ -92,6 +92,14 @@
   }
 }
 
+@mixin fontSizer($fzr) {
+  @each $fr in $fzr {
+    .fzr#{$fr} {
+      font-size: #{$fr}rem;
+    }
+  }
+}
+
 @mixin fontWeight($fws) {
   @each $fw in $fws {
     .fw#{$fw} {

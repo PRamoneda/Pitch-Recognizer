@@ -1,6 +1,6 @@
-@import 'atomic/variables';
-@import 'atomic/mixins';
-@import 'atomic/helpers';
+@import "atomic/variables";
+@import "atomic/mixins";
+@import "atomic/helpers";
 
 // padding padding-*
 @include paddings($padding_list);
@@ -16,6 +16,9 @@
 
 // font-size
 @include fontSize($fzs);
+
+// font-size rem
+@include fontSizer($fzr);
 
 // font-weight
 @include fontWeight($fw);
@@ -168,7 +171,7 @@
 
 // font-family
 .ffkt {
-  font-family: KaiTi
+  font-family: KaiTi;
 }
 
 // font-weight
@@ -336,7 +339,7 @@
 
 // 终极z轴
 .zt {
-  z-index: 9999999999999
+  z-index: 9999999999999;
 }
 
 // fix 状态的 header
@@ -364,6 +367,14 @@
 // width
 .w50 {
   width: 50%;
+}
+
+.w40 {
+  width: 40%;
+}
+
+.w80 {
+  width: 80%;
 }
 
 .wa {
@@ -591,5 +602,5 @@
 // full
 .icf {
   width: 100%;
-  height: 100%
+  height: 100%;
 }
