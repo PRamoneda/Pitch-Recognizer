@@ -5,13 +5,13 @@
       <div class="fzr4">{{ frequency }}</div>
     </div>
     <div class="df jcsb w80 mt56">
-      <button @click="pBeg" class="bubbly-button">ask</button>
-      <button @click="pClose" class="bubbly-button">closure</button>
-      <button @click="pStart" class="bubbly-button">Start</button>
-      <button @click="pPause" class="bubbly-button">Pause</button>
+      <button @click="pBeg" class="bubbly-button">abrir micro</button>
+      <button @click="pClose" class="bubbly-button">cerrar micro</button>
+      <button @click="pStart" class="bubbly-button">grabar</button>
+      <button @click="pPause" class="bubbly-button">pausar</button>
       <button @click="pResume" class="bubbly-button">Resume</button>
-      <button @click="pStop" class="bubbly-button">Stop</button>
-      <button @click="pPlay" class="bubbly-button">Play/button>
+      <button @click="pStop" class="bubbly-button">parar</button>
+      <button @click="pPlay" class="bubbly-button">Play</button>
       <div class="pAudio"></div>
     </div>
   </div>
